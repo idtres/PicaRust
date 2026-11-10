@@ -1,0 +1,2 @@
+quiero que hagas una aplicacion en rust, que luego la compilare en windows o quizas osx, pero por el momento la usaremos solo en linux, la app debe comportarse como Picasa de google en windows, super rapida ligera y la unica funcion es visualizae jpg jpgs o imagenes, deben abrire con ese estilo de pantalla casi completa o completa y un zoom super rapid, y al apretar escape cerrarse. yo la asociare a usarse con archivos de forma que con un enter funcioneinmediatament
+

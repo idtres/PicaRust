@@ -1,0 +1,21 @@
+[package]
+name = "picarust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.37.0", default-features = false, features = ["glow", "default_fonts", "x11", "wayland"] }
+image = { version = "0.25.10", default-features = false, features = ["jpeg", "png", "gif", "webp", "bmp", "tiff"] }
+kamadak-exif = "0.6.2"
+log = "0.4.35"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = true
+
+# Las dependencias (decodificadores JPEG/PNG) optimizadas también en debug.
+[profile.dev.package."*"]
+opt-level = 3

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=PicaRust
+Comment=Visor de imágenes rápido
+Exec=picarust %f
+Icon=image-viewer
+Terminal=false
+NoDisplay=false
+Categories=Graphics;Viewer;
+MimeType=image/jpeg;image/png;image/gif;image/webp;image/bmp;image/tiff;
+StartupWMClass=picarust
